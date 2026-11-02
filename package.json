@@ -1,0 +1,17 @@
+{
+  "name": "virtual-network-test-harness",
+  "version": "1.0.0",
+  "description": "A virtual clock, seeded PRNG and simulated lossy links for testing sync code deterministically.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
